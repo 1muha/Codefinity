@@ -1,0 +1,159 @@
+.lat1,
+.lat2 {
+    color: white;
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: -26%;
+}
+
+.cardlar {
+    margin-top: 60px;
+}
+
+.card1,
+.card2,
+.card3 {
+    width: 350px;
+    height: 350px;
+    border: 2px solid #696b78;
+    cursor: pointer;
+}
+
+.card1 {
+    margin-left: 8%;
+}
+
+.card2 {
+    margin-left: 38%;
+    margin-top: -26%;
+}
+
+.card3 {
+    margin-left: 68%;
+    margin-top: -26%;
+}
+
+.hamag {
+    color: white;
+    margin-top: 10%;
+    margin-left: 15%;
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.line1 {
+    width: 60%;
+    height: 2px;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.viev,
+.viev2 {
+    font-family: sans-serif;
+    color: white;
+    margin-left: 82%;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.viev:hover {
+    cursor: pointer;
+    border-bottom: .2px solid white;
+}
+
+.tayoq,
+.kvidish,
+.tayoq2 {
+    width: 100%;
+    height: 50%;
+}
+
+.cards2 {
+    width: 100%;
+    height: 1000px;
+    background-color: #2C2C2C;
+    margin-top: -2.6%;
+}
+
+.lat2 {
+    margin-left: 150px;
+    margin-top: 5%;
+}
+
+.card1_2,
+.card2_2,
+.card3_2,
+.card4_2 {
+    width: 450px;
+    height: 400px;
+    border: 2px solid #696b78;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.card1_2 {
+    margin-left: 8%;
+}
+
+.card2_2 {
+    margin-left: 45%;
+    margin-top: -24%;
+}
+
+.card3_2 {
+    margin-left: 8%;
+    transform: translateY(7%);
+}
+
+.card4_2 {
+    margin-left: 45%;
+    margin-top: -22%;
+    position: relative;
+}
+
+.card1_2:hover img {
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.card2_2:hover img {
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.card3_2:hover img {
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.card4_2:hover img {
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.viev2 {
+    margin-left: 71%;
+    margin-top: .4%;
+}
+
+.line25 {
+    width: 100px;
+    height: 50px;
+    color: white;
+    transform: translateY(100%) translateX(100%);
+}
+
+.footerdivi {
+    width: 100%;
+    height: 100vh;
+    background-color: #2C2C2C;
+    margin-top: -.3px;
+}

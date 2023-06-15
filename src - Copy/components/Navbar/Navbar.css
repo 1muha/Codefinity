@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maindiv {
+    width: 100%;
+    height: 120vh;
+    background-image: url(../../images/harry.jpg);
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.nav-items {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    font-family: sans-serif;
+    position: sticky;
+}
+
+.pi1:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(80, 80, 237);
+}
+
+.imig1 {
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: 45%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.search {
+    margin-left: 80%;
+    color: white;
+    font-family: sans-serif;
+    margin-top: -100px;
+}
+
+.login {
+    width: 90px;
+    height: 30px;
+    background-color: #6b63b5;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.login:hover {
+    background-color: #433a93;
+    transition: .5s;
+}
+
+.textal {
+    transform: translateY(-40px);
+    margin-left: -350px;
+    cursor: pointer;
+}
+
+.pi1 {
+    padding-left: 20px;
+}
+
+.potter {
+    margin-top: 50px;
+    margin-left: 28%;
+}
+
+.max {
+    color: white;
+    font-size: 60px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.lorem1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.more1 {
+    width: 300px;
+    height: 50px;
+    background: #464184;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    margin-left: 38.5%;
+    margin-top: 30px;
+}
+
+@media(max-width:500px) {
+    .nav-items {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .login {
+        width: 70px;
+        height: 25px;
+        border-radius: 3px;
+        font-size: 12px;
+        margin-left: 750px;
+    }
+
+    .max {
+        font-size: 30px;
+        margin-left: 100px;
+    }
+
+    .lorem1 {
+        display: none;
+    }
+
+    .potter {
+        width: 300px;
+        height: 100px;
+        margin-left: 100px;
+    }
+
+    .more1 {
+        width: 180px;
+        height: 40px;
+        margin-left: 32%;
+    }
+
+}

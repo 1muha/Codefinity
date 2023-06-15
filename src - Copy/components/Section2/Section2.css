@@ -1,0 +1,77 @@
+.contcar45 {
+    width: 100%;
+    height: 300vh;
+    /* border: 2px solid red; */
+    margin-top: -30%;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.fanrect22 {
+    width: 800px;
+    height: 550px;
+    margin-top: 5%;
+    object-fit: cover;
+    margin-left: 40.6%;
+}
+
+.watch22 {
+    color: white;
+    font-size: 55px;
+    width: 500px;
+    height: 600px;
+    margin-top: -40%;
+    position: relative;
+}
+
+.lorem527 {
+    width: 400px;
+    height: 600px;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: -35%;
+    position: relative;
+}
+
+.watchmo57 {
+    width: 160px;
+    height: 50px;
+    background-color: #514a92;
+    border: 0;
+    color: white;
+    outline: none;
+    font-size: 16px;
+    border-radius: 30px;
+    transform: translateY(-520px);
+}
+
+.textcil1 {
+    margin-left: 20%;
+    margin-top: -35%;
+}
+
+.contcar488 {
+    margin-top: -90%;
+}
+
+.sharbat {
+    width: 800px;
+    height: 550px;
+    margin-top: 5%;
+    object-fit: cover;
+}
+
+.textcil18 {
+    margin-left: 54%;
+    margin-top: -35%;
+}
+
+.lorem528 {
+    width: 400px;
+    height: 600px;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: -62%;
+    position: relative;
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.triforce {
+    position: relative;
+    margin-left: 46%;
+    margin-top: -135%;
+    width: 200px;
+    height: 200px;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -ms-perspective: 1200px;
+    perspective: 1200px;
+}
+
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 35px solid white;
+
+    -webkit-animation-name: triangle;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 4s;
+
+    animation-name: triangle;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#power {
+    left: 10%;
+}
+
+#wisdom {
+    top: 17.5%;
+}
+
+#courage {
+    top: 35px;
+    left: 20%;
+}
+
+/* Webkit / Opera */
+@-webkit-keyframes triangle {
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+
+    to {
+        -webkit-transform: rotateY(360deg);
+    }
+}
+
+/* All Other Browsers */
+@keyframes triangle {
+    from {
+        -moz-transform: rotateY(0deg);
+        -ms-transformp: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+
+    to {
+        -moz-transform: rotateY(-360deg);
+        -ms-transform: rotateY(-360deg);
+        transform: rotateY(-360deg);
+    }
+}
+
+@media(max-width:500) {
+    .triangle {
+        display: none;
+    }
+}

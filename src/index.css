@@ -1,0 +1,26 @@
+body {
+    background: rgb(13, 1, 102);
+    background: linear-gradient(45deg, rgba(13, 1, 102, 1) 0%, rgba(12, 3, 96, 1) 0%, rgba(4, 17, 55, 1) 1%, rgba(16, 17, 17, 0.9108018207282913) 97%);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgb(137, 137, 137);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: cadetblue;
+    width: 50px;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.ptich {
+    color: #99B8EC;
+}
+
+.pty {
+    color: #D17811;
+}
